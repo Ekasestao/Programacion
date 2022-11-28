@@ -1,8 +1,11 @@
+lista de archivos en el directorio
+"ls"
+
+lista de archivos y archivos ocultos en el directorio
+"ls -a"
+
 Crear repositorio git
 "git init" en la carpeta a crear el repositorio
-
-Mostrar status del repositorio
-"git status"
 
 Añadir archivos a stage
 "git add nombre"
@@ -10,8 +13,50 @@ Añadir archivos a stage
 Añadir todos los archivos a stage
 "git add ."
 
+Descartar cambios en el directorio donde te encuentres
+"git restore nombre"
+
+Descartar archivos en stage
+"git rm --cached nombre"
+
 Hacer un commit al repositorio
 "git commit -m "Mensaje" "
+
+Eliminar archivo/directorio
+"rm nombre"
+
+Eliminar archivo/directorio y pasar la modificación a stage directamente
+"git rm nombre"
+
+Mover un archivo sin cambiar el nombre
+"mv archivo directorio/"
+
+Mover un archivo cambiando el nombre
+"mv archivo directorio/archivo2"
+
+Cambiar nombre a un archivo
+"mv archivo archivo2"
+
+Cambiar nombre a un archivo y pasar la modificación a stage directamente
+"git mv archivo archivo2"
+
+Mostrar el status del repositorio
+"git status"
+
+Mostrar mejor status
+"git status -s"
+
+Mostrar los cambios dentro de los archivos antes de stage
+"git diff"
+
+Mostrar los cambios dentro de los archivos en la etapa stage
+"git diff --staged"
+
+Ver el historial de commits completo
+"git log"
+
+Ver el historial de commits simplificado
+"git log --oneline"
 
 Para indicar si tenemos un servidor remoto al que subir nuestros cambios
 "git remote add origin https://github.com/Ekasestao/Programacion.git"
