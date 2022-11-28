@@ -66,3 +66,9 @@ Subir los cambios y crear la rama en la que se está trabajando a GitHub
 
 Subir los cambios a GitHub
 "git push"
+
+Crear aplicación React
+"npx create-react-app directorio"
+
+Crear aplicación React utilizando el propio directorio
+"npx create-react-app ."
