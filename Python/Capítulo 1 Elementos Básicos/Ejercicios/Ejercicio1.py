@@ -1,0 +1,5 @@
+a=float(input('Valor de a: '))
+b=float(input('Valor de b: '))
+c=float(input('Valor de c: '))
+resultado=(a**3*(b**2 -2*a*c))/(2*b)
+print(f'El resultado es: {resultado}')

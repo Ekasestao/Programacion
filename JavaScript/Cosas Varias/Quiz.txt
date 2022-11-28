@@ -1,0 +1,91 @@
+1.
+Variables are tools you can use to: Store data
+
+Which of the following has the proper syntax for setting a variable?: var name = "name";
+
+What happens when you call alert on a javascript variable like the following: alert(name) : it causes a pop up window to appear containing the data from the variable
+
+You can define variables in JavaScript with var and also with : let
+
+Which of the following is a JavaScript comment? : //
+
+Which of the following is not a JavaScript data type : Decimal
+
+"How would you call the User name from the following object: var user = { name: 'Kristine', age: 12, city: 'Scottsdale', grades: { math: 90, science: 80, languagerts: 100 } }" : console.log(user.name)
+
+How would you do a quick check on what kind of data type it is you are working with? : typeof
+
+With JavaScript what does "200" - 50 = ? : 150
+
+With JavaScript what does "200" + 50 = ? : "20050"
+
+2.
+When comparing to see if 2 var are equal which of the following can be used : ==
+
+While == works the better practice is to use === which is called : strict equal
+
+To check if 2 variables are not equal you use which syntax : !=
+
+"var age = 30; if (age <= 10) { console.log("You can eat from the kid's menu"); } else if (age >= 16 && age < 25) { console.log("You are old enough to drive"); } else if (age >= 25) { console.log("You are old enough to rent a car"); }, If you were to run this code, which conditional in this if/else statement would run?" : The second ELSE IF
+
+"What is missing from the following code? var dataPoint = {}; ______ (typeof dataPoint) { case "string": console.log("It's a string"); break; case "number": console.log("It's a number"); break; case "boolean": console.log("It's a boolean"); break; default: console.log('No matches'); }" : switch
+
+3.
+
+Which of the following is the right syntax for an empty function with no params? : function hiThere () { }
+
+Once you have set a function that has no arguments, which of the following is the correct syntax call : functionName ()
+
+If you want to use the value of a function later on in your program, you use which call inside the function : return
+
+With variable scope, if a variable is available to the entire program what scope is it in : global
+
+With variable scope, if a variable is available only to the function it is in, what scope is it in : local
+
+"The following is known as a function ______, var greeting = function () { return ""Hi there!""; };" : expression
+
+If you are making functions inside of a code block, which type of function should you NOT use : function declaration
+
+"Given the following function which of the following is the correct call. function fullName(firstName, lastName, language) { var language = language || 'English'; return firstName.toUpperCase() + "", "" + lastName.toUpperCase() + "" - "" + language; } " : console.log(fullName('Jordan', 'Hudgens', 'Spanish'));
+
+4.
+
+Which is the syntax for creating a literal array? : var literalArray = [1, 2, 3];
+
+Which of the following is a mixed array? : [1, 2, "3", 4, "5"]
+
+When you want to call the first element in an array what position number do you use? : 0
+
+In the following nested array how would you call the 3rd element in the second array? array = [["a", "b", "c", "d"], [1, 2, 3, 4, 5,], ["do", "ray", "me", "",]] : array[1][2];
+
+Which syntax would remove an element from the following array? var arr = ['Altuve', 'Bregman', 'Correa', 'Springer']; : arr.pop();
+
+Using the same array how would we add a new element to an array? var arr = ['Altuve', 'Bregman', 'Correa', 'Springer']; : arr.push('Bagwell');
+
+Now that we have worked with the last element in an array, which syntax removes the FIRST element in the following array? var arr = ['Altuve', 'Bregman', 'Correa', 'Springer']; : arr.shift();
+
+ Which syntax ADDS a new element to the beginning of the following array? var arr = ['Altuve', 'Bregman', 'Correa', 'Springer']; : arr.unshift('Kyle');
+
+How would we remove the second element of the following array? var arr = ['Altuve', 'Bregman', 'Correa', 'Springer']; : arr.splice(1, 1);
+
+If we did not know the element position in the array what is the syntax to find the element, and store it in a var? : var foundElement = arr.indexOf('Data we are looking for');
+
+5.
+Which of the following has the correct syntax for a simple for loop for this var, var players = [ 'Altuve', 'Bregman', 'Correa', 'Springer' ]; : for (var i = 0; i < players.length; i++) { console.log(players[i]); }
+
+Which of the following is a use of for loops in JavaScript? : to iterate over data
+
+Which of the following has the correct syntax for a simple for in loop for this var, var players = [ 'Altuve', 'Bregman', 'Correa', 'Springer' ]; : for (player in players) { console.log(players[player]); }
+
+Which is the proper syntax for in loop for this Object, var student = { name: 'Kristine', age: 12, city: 'Scottsdale' };: for (var key in student) { console.log(key + " => " + student[key]); }
+
+With while loops where would you declare this sentinel value? var i = 0; : outside of the loop
+
+var i = 0; while (i < players.length) { console.log(players[i]); } If you ran this code as is, you would start _____: an infinite loop
+
+What is the syntax to increment the following for each time the while loop runs, var i = 0; inside the code you will call ___: i++
+
+The following is know as a _______ var i = 21; do { console.log(players[i]); i++; } while (i < players.length): do/while loop
+
+A do while loop is guaranteed to run at least : once
+

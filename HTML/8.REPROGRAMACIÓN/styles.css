@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between; /* El espacio entre cada item div */
+    align-items: center; /* La altura a la que se alinean los div */
+    padding: 60px 100px;
+}
+
+.navigation > .left {
+    display: flex;
+    align-items: center;
+}
+
+.navigation > .left > .icon {
+    margin-right: 15px;
+}
+
+.navigation > .left > .icon i {
+    font-size: 2em;
+}
+
+.navigation > .left > .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.navigation > .contact > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.links > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation > .right > .address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation > .center > .banner img {
+    width: 216px;
+    height: 100%;
+}

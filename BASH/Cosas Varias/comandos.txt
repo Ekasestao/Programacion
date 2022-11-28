@@ -1,0 +1,14 @@
+Crear repositorio git
+"git init" en la carpeta a crear el repositorio
+
+Mostrar status del repositorio
+"git status"
+
+Añadir archivos a stage
+"git add nombre"
+
+Añadir todos los archivos a stage
+"git add ."
+
+Hacer un commit al repositorio
+"git commit -m "Mensaje" "

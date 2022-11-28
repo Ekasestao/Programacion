@@ -1,0 +1,11 @@
+numero1=10
+numero2=5.5
+suma=numero1+numero2
+cadena='"Ekaitz"'
+booleano=True
+print(suma)
+print(type(suma))
+print(cadena)
+print(type(cadena))
+print(booleano)
+print(type(booleano))

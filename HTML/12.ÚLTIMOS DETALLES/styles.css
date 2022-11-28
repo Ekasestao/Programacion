@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between; /* El espacio entre cada item div */
+    align-items: center; /* La altura a la que se alinean los div */
+    padding: 60px 100px;
+}
+
+.navigation > .left {
+    display: flex;
+    align-items: center;
+}
+
+.navigation > .left > .icon {
+    margin-right: 15px;
+}
+
+.navigation > .left > .icon i {
+    font-size: 2em;
+}
+
+.navigation > .left > .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.navigation > .left > .contact > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 1em;
+}
+
+.links > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation > .center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation > .center > .banner {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation > .center > .banner img {
+    width: 216px;
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.navigation > .right {
+    display: flex;
+    align-items: center;
+}
+
+.navigation > .right > .address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation > .right > .address a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.navigation > .right > .address a:hover {
+    color: #cea135;
+}
+
+.navigation > .right > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation > .right > .contact-icon a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navigation > .right > .contact-icon a:hover {
+    color: #cea135;
+}

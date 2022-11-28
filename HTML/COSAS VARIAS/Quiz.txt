@@ -1,0 +1,41 @@
+1.
+In HTML, _________ is used to insert images.: <img>
+
+To create bullet points in HTML, use ______.: <ul>
+
+In HTML, <ul> is the tag for _______________.: unordered list
+
+In HTML, <ol> is the tag for _______________.: ordered list
+
+In HTML, different variables can be used for target, though the practice considered standard for both the user and the owner is ______________.: blank
+
+<a href> is used to _________________.: Include links into web content
+
+<div> stands for _____________ and must have both an opening and closing tag.: division
+
+Which of the following pairs shows an accurate opening and closing html tag structure? : <html> and </html>
+
+To begin coding in HTML a declaration DOCTYPE must be made. A correctly structured declaration is ___________________.: <!DOCTYPE html>
+
+HTML uses a tag-based system. The tags are what the ______________ reads to display what has been coded.: browser
+
+2.
+CSS are files that give _________ to your application.: styling
+
+Adding padding means that you can add ___________ around the text.: space
+
+___________ style sheets is an outside file that contains all the styles needed for an entire supplication.: external
+
+IDs in CSS are denoted by which of the following symbols?: #
+
+Class in CSS is denoted by which of the following symbols?: .
+
+IDs are used only ________ time(s) in the page.: one
+
+A ________ can be used any number of times in the page.: class
+
+_____ are used to denote a CSS object.: { }
+
+In CSS, height is denoted by ___________.: pixels
+
+In CSS, the default font size is typically “_______em”.: 1.0

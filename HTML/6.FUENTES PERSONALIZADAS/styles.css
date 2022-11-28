@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between; /* El espacio entre cada item div */
+    align-items: center; /* La altura a la que se alinean los div */
+    padding: 60px 100px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.left > .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.contact > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
