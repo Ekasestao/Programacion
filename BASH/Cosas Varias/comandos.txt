@@ -12,3 +12,12 @@ Añadir todos los archivos a stage
 
 Hacer un commit al repositorio
 "git commit -m "Mensaje" "
+
+Para indicar si tenemos un servidor remoto al que subir nuestros cambios
+"git remote add origin https://github.com/Ekasestao/Programacion.git"
+
+Subir los cambios y crear la rama en la que se está trabajando a GitHub
+"git push -u origin main"
+
+Subir los cambios a GitHub
+"git push"
