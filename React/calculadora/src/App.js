@@ -15,7 +15,11 @@ function App() {
 
   const calcularResultado = () => {
     if (input) {
-      setInput(evaluate(input));
+      try {
+        setInput(evaluate(input));
+      } catch {
+        setInput("Syntaxis Error");
+      }
     }
   };
 
