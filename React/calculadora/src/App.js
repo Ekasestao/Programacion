@@ -18,7 +18,7 @@ function App() {
       try {
         setInput(evaluate(input));
       } catch {
-        setInput("Syntaxis Error");
+        setInput("Syntax Error");
       }
     }
   };
