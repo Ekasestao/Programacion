@@ -24,3 +24,5 @@ class NombreComponente extends React.Component {
     );
   }
 }
+
+export default NombreComponente;
