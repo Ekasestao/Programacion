@@ -1,0 +1,5 @@
+Compilar a JS
+tsc
+
+Mostrar en consola
+node directorio/archivo.js
